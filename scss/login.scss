@@ -1,0 +1,245 @@
+@charset "utf-8";
+.logo{
+  margin-top:31px;
+  span{
+    width: 170px;
+    height: 100px;
+    display: block;
+    padding-left: 270px;
+    font: 35px/100px 微软雅黑;
+    margin-top: -105px;
+    b{
+      width:2px;
+      height:30px;
+      color:#999;
+    }
+  }
+}
+input {
+  font-size: 14px;
+  font-family: "Tahoma","Arial","Sans-Serif";
+}
+em, i, b {
+  font-style: normal;
+}
+.main {
+  width: 100%;
+  height: 767px;
+  margin: 0 auto;
+  background: #e8e8e8;
+  .main_box {
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+  }
+}
+/*.bottom {
+  width: 100%;
+  height: 184px;
+  margin: 0 auto;
+  background: #ebebeb;
+}*/
+.main_left {
+  width: 660px;
+  height: 100%;
+  float: left;
+}
+.main_right {
+  width: 540px;
+  height: 100%;
+  float: right;
+  background: white;
+  font-size: 14px;
+  color: #666;
+  .register_form {
+    margin-left: 57px;
+    margin-top: 57px;
+    font-size: 14px;
+    color: #666;
+    input{
+      text-indent:10px;
+    }
+    label {
+      width: 70px;
+      display: inline-block;
+      text-align: right;
+      margin-right: 20px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      font-color: #666666;
+    }
+  }
+  .p1{
+    width:540px;
+    height:30px;
+    font:18px/30px 微软雅黑;
+    border-bottom:3px solid #a0603d;
+    span{
+      display: inline-block;
+      margin-left:100px;
+    }
+    :nth-child(2){
+      float:right;
+      margin-right:65px;
+    }
+  }
+}
+//填写手机号
+.phone {
+  font-size: 14px;
+  input {
+    width: 259px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    margin-bottom:15px;
+  }
+  a {
+    color: #206dc5;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+}
+//短信验证
+.message > * {
+  float: left;
+}
+.message{
+  input {
+    width: 124px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    margin-left: 4px;
+    margin-bottom:15px;
+  }
+  em {
+    display: block;
+    width: 127px;
+    height: 37px;
+    background: #a0603d;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 7px;
+  }
+}
+//填写密码
+.password_r {
+  clear: left;
+  input {
+    width: 259px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    margin-bottom:15px;
+  }
+}
+//确认密码 及 验证码的input样式相同
+.password_s input {
+  width: 259px;
+  height: 38px;
+  border: 1px solid #cccccc;
+  margin-bottom:15px;
+}
+//单选框
+.mail_rec, .agreement {
+  margin-left: -4px;
+  color: #333;
+}
+.agreement a {
+  color: #206dc5;
+}
+//为什么要叫label标签
+.mail_rec label, .agreement label {
+  height: 16px;
+}
+//定位单选框
+.mail_rec input, .agreement input {
+  position: relative;
+  top: 2px;
+}
+.agreement{
+  margin-top:-25px;
+}
+//现在注册
+.regi_now {
+  width: 259px;
+  height: 39px;
+  margin-left: -4px;
+  border: none;
+  background-repeat: no-repeat;
+  background: url(../images/regi.jpg);
+  cursor: pointer;
+}
+//联系客服
+.help_kefu {
+  width: 355px;
+  height: 53px;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  margin-top: 42px;
+  line-height: 55px;
+  margin-left: 67px;
+  padding-left: 80px;
+  a {
+    color: #206dc5;
+    margin: 5px;
+  }
+}
+//合作网站
+.co_para {
+  margin-left: 147px;
+  margin-top: 6px;
+  float: left;
+  color: #999;
+}
+//友情网站登录口
+.other_r_show {
+  width: 379px;
+  height: 26px;
+  clear: left;
+  margin-left: 138px;
+  margin-top: 7px;
+  float: left;
+
+  i {
+    width: 79px;
+    height: 26px;
+    float: left;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+  }
+  .r_qq {
+    background: url(../images/QQico.jpg) no-repeat;
+    cursor: pointer;
+  }
+  .r_zfb {
+    background: url(../images/ZFBico.jpg) no-repeat;
+    width: 93px;
+    cursor: pointer;
+  }
+  .r_xl {
+    background: url(../images/XLico.jpg) no-repeat;
+    cursor: pointer;
+  }
+  .r_360 {
+    background: url(../images/360ico.jpg) no-repeat;
+    cursor: pointer;
+  }
+}
+.i_had_regi {
+  position: absolute;
+  top: -41px;
+  right: 30px;
+  background: #A0603D;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.i_had_regi a {
+  color: white;
+  font-size: 14px;
+}
+//   login 页面的样式

@@ -1,0 +1,59 @@
+.header_box {width:990px;}
+.head_box {width:990px;}
+.search_input {width:130px;}
+.search {left:370px;}
+.hot_search{left:370px;}
+.s_cart{ left:600px;}
+.menu_box {width:990px;}
+.rec_products {width:780px;}
+.zuipin {width:990px;}
+.footer_safe {width:990px;}
+.help_box {width:990px;}
+.safe_box {width:990px;}
+#slide {width:990px;}
+.nav_right {width:780px;}
+.nav_right li {width:70px;background:url(1_nav_bg.jpg) no-repeat 78px 0px;}
+.nav_right li a:hover {color:#ffffff; text-decoration:none; width:70px; background:url(2_nav_right_c2.jpg) no-repeat;}
+.nav_right li.nav_right_c {background:url(2_nav_right_c2.jpg) no-repeat;}
+.filter_mod {width:780px;}
+.index_mod_c_r {display:none;}
+.credi {display:none;}
+.index_say {width:419px;}
+.index_say_t {width:235px;}
+.safe_mod {padding-left:7px;}
+.help_mod {width:142px;margin:10px 0px 0px 10px;}
+.pro_banner2 {display:none;}
+.cate_right {width:780px;}
+.product_box {margin:5px;display:inline;}
+.show_right {width:480px;}
+.combination_right {left:685px;}
+.detail_left {display:none;}
+.rec_pro_box {padding:5px 9px;margin:5px 0px 0px 5px;display:inline;}
+.product_box {padding:7px;display:inline;margin:8px 0px 0px 8px;height:339px;}
+.tea_hpro_box {width:984px;padding:0px 0px 7px 6px;}
+.tea_pro_box {width:984px;padding:0px 0px 7px 6px;background:#f3f3f3;margin-top:10px;}
+.products_box {padding:2px;display:inline;margin:7px 6px 0px 0px;}
+.chaju_r {display:none;}
+.brand_rank {display:none;}
+.brand_pp_right {width:780px;}
+.brand_slide {width:770px;}
+.act_right {width:498px;}
+.sale_mod_c {width:984px;margin-top:10px;padding:0px 0px 7px 6px;background:#f3f3f3;}
+.vip_pri {display:none;}
+.vip_right {width:780px;}
+.announ_content {width:760px;}
+.help_right {width:780px;}
+.comment {width:465px;}
+.comment_r {width:219px;}
+.pucha_lthj {width:990px;overflow:hidden;}
+.pucha_right {display:none;}
+.search_mod_c {width:984px;padding:0px 0px 7px 6px;background:#f3f3f3;}
+.user_right {width:780px;}
+.pucha_pro_box {width:984px;padding:0px 0px 7px 6px;background:#f3f3f3;}
+.pc_right {width:780px;}
+.vip_pri_box {width:162px;padding:10px;}
+.index_slg {height:600px;background:url(3_index_slg990.jpg) no-repeat;}
+.index_slg_left {width:400px;float:left;}
+.index_slg_right {width:590px;padding-top:5px;float:left;}
+.index_slg_left a {width:385px;height:295px;float:left;margin:15px 0px 0px 15px;}
+.index_slg_right a {width:280px;height:225px;float:left;margin:10px 0px 0px 10px;}

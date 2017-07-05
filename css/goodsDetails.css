@@ -1,0 +1,206 @@
+.nav_details {
+  width: 200px;
+  height: 350px;
+  display: none; }
+  .nav_details .sn_nav {
+    display: none; }
+
+.show_right {
+  margin-left: 110px;
+  float: left; }
+
+.pro_detail {
+  width: 690px;
+  height: 468px;
+  float: right; }
+  .pro_detail dt {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px; }
+    .pro_detail dt h1 {
+      font-size: 14px;
+      display: inline; }
+
+.detail_cxxx {
+  width: 80px;
+  height: auto;
+  float: left; }
+
+.detail_cx_box {
+  width: 400px;
+  height: auto;
+  float: left; }
+
+.detail_rating {
+  width: 690px;
+  height: 25px;
+  position: relative; }
+  .detail_rating span {
+    display: block;
+    float: left;
+    vertical-align: middle; }
+  .detail_rating .rating_box {
+    width: 69px;
+    height: 20px;
+    margin-top: 5px;
+    background: url(../images/product_rating_blank_star.gif) repeat-x; }
+    .detail_rating .rating_box .rating {
+      height: 13px;
+      background: url(../images/product_rating_full_star.gif) repeat-x; }
+  .detail_rating .detail_pl {
+    margin-left: 40px; }
+
+.detail_zffs span {
+  padding: 0px 10px; }
+
+.detail_pl {
+  padding-left: 15px; }
+
+.pro_detail dd {
+  margin-bottom: 8px; }
+
+.pro_cart_info {
+  height: 90px;
+  background: #f3f3f3;
+  padding: 5px 10px; }
+  .pro_cart_info input {
+    vertical-align: middle; }
+  .pro_cart_info div {
+    padding-top: 10px; }
+  .pro_cart_info label {
+    padding-right: 10px; }
+    .pro_cart_info label .detail_qty {
+      width: 50px;
+      height: 20px;
+      border: 1px solid #cccccc;
+      padding: 5px 5px 0px 5px;
+      margin: 0px 5px;
+      vertical-align: middle;
+      background: #ffffff; }
+
+.detail_fx {
+  margin-top: 15px;
+  line-height: 30px; }
+
+.detail_fx img {
+  vertical-align: middle;
+  padding-right: 2px; }
+
+.detail_left {
+  width: 200px;
+  margin-right: 10px;
+  float: left; }
+
+.zuipin_mod {
+  margin-bottom: 10px; }
+  .zuipin_mod .zuipin_mod_t {
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    background: #f3f3f3;
+    border-bottom: 2px solid #a0603d; }
+
+.browse_box {
+  width: 180px;
+  height: auto;
+  padding: 5px;
+  border-bottom: 1px dotted #dddddd;
+  margin-bottom: 5px; }
+  .browse_box .browse_img {
+    width: 174px;
+    height: 139px;
+    border: 3px solid #f3f3f3;
+    position: relative; }
+    .browse_box .browse_img .browse_stat {
+      position: absolute;
+      width: 65px;
+      height: 20px;
+      line-height: 20px;
+      right: -5px;
+      top: -5px;
+      color: #ffffff;
+      text-align: center;
+      display: block;
+      background: #a0603d; }
+
+.browse_name {
+  height: 32px;
+  line-height: 16px;
+  padding-top: 5px; }
+
+.browse_price {
+  width: 180px;
+  line-height: 20px;
+  padding-top: 5px; }
+  .browse_price .zp_price {
+    float: right;
+    display: block; }
+    .browse_price .zp_price span {
+      font-size: 20px;
+      color: #bb131b;
+      font-family: "Georgia"; }
+
+.browse_box {
+  width: 180px;
+  height: auto;
+  padding: 5px;
+  border-bottom: 1px dotted #dddddd;
+  margin-bottom: 5px; }
+
+.detail_right {
+  width: 990px;
+  float: left; }
+  .detail_right .detail_tabs {
+    width: auto;
+    height: auto; }
+
+.detail_gg {
+  padding: 5px; }
+  .detail_gg label {
+    width: 222px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    padding-left: 20px;
+    background: url(../images/detail_gg.png) no-repeat;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden; }
+
+.detail_tabs_t {
+  width: auto;
+  height: 35px;
+  background: #f3f3f3;
+  border-bottom: 2px solid #a0603d; }
+  .detail_tabs_t li {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    display: block;
+    background: #ffffff;
+    cursor: pointer; }
+    .detail_tabs_t li .cur {
+      color: #ffffff;
+      height: 35px;
+      line-height: 35px;
+      background: url(../images/detail_tabs_t.jpg) no-repeat; }
+
+.detail_super {
+  padding: 5px; }
+
+.detail_payment {
+  padding: 10px; }
+  .detail_payment .detail_payment_t {
+    height: 30px;
+    line-height: 30px;
+    background: #f3f3f3;
+    padding: 2px 10px; }
+  .detail_payment .detail_payment_c {
+    padding: 10px; }
+
+/*# sourceMappingURL=goodsDetails.css.map */

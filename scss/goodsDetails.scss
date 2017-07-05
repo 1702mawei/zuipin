@@ -1,0 +1,254 @@
+@charset"utf-8";
+.nav_details{
+  width:200px;
+  height:350px;
+  display: none;
+  .sn_nav{
+    display: none;
+  }
+}
+
+//  right goods  introduce
+.show_right {
+  margin-left: 110px;
+  float: left;
+}
+.pro_detail{
+  width:690px;
+  height:468px;
+  float:right;
+  dt {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+     h1 {
+      font-size: 14px;
+      display: inline;
+    }
+  }
+}
+//cuxiao   information
+.detail_cxxx{
+  width:80px;
+  height:auto;
+  float:left;
+}
+.detail_cx_box{
+  width:400px;
+  height:auto;
+  float:left;
+}
+//  shangpinpingfen
+.detail_rating{
+  width:690px;
+  height:25px;
+  position: relative;
+  span {
+    display: block;
+    float: left;
+    vertical-align: middle;
+  }
+  .rating_box {
+    width: 69px;
+    height: 20px;
+    margin-top: 5px;
+    background: url(../images/product_rating_blank_star.gif) repeat-x;
+    .rating {
+      height: 13px;
+      background: url(../images/product_rating_full_star.gif) repeat-x;
+    }
+  }
+  .detail_pl{
+    margin-left:40px;
+  }
+}
+
+//  zhifufangshi
+.detail_zffs span {
+  padding: 0px 10px;
+}
+
+//  haoping
+.detail_pl {
+  padding-left: 15px;
+}
+.pro_detail dd {
+  margin-bottom: 8px;
+}
+//  I Want bug and shoucang
+.pro_cart_info {
+  height: 90px;
+  background: #f3f3f3;
+  padding: 5px 10px;
+  input {
+    vertical-align: middle;
+  }
+  div {
+    padding-top: 10px;
+  }
+  label {
+    padding-right: 10px;
+    .detail_qty {
+      width: 50px;
+      height: 20px;
+      border: 1px solid #cccccc;
+      padding: 5px 5px 0px 5px;
+      margin: 0px 5px;
+      vertical-align: middle;
+      background: #ffffff;
+    }
+  }
+}
+
+.detail_fx {
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.detail_fx img {
+  vertical-align: middle;
+  padding-right: 2px;
+}
+
+
+.detail_left {
+  width: 200px;
+  margin-right: 10px;
+  float: left;
+}
+.zuipin_mod {
+  margin-bottom: 10px;
+  .zuipin_mod_t {
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    background: #f3f3f3;
+    border-bottom: 2px solid #a0603d;
+  }
+}
+.browse_box {
+  width: 180px;
+  height: auto;
+  padding: 5px;
+  border-bottom: 1px dotted #dddddd;
+  margin-bottom: 5px;
+  .browse_img {
+    width: 174px;
+    height: 139px;
+    border: 3px solid #f3f3f3;
+    position: relative;
+    .browse_stat {
+      position: absolute;
+      width: 65px;
+      height: 20px;
+      line-height: 20px;
+      right: -5px;
+      top: -5px;
+      color: #ffffff;
+      text-align: center;
+      display: block;
+      background: #a0603d;
+    }
+  }
+}
+.browse_name {
+  height: 32px;
+  line-height: 16px;
+  padding-top: 5px;
+}
+.browse_price {
+  width: 180px;
+  line-height: 20px;
+  padding-top: 5px;
+  .zp_price {
+    float: right;
+    display: block;
+    span {
+      font-size: 20px;
+      color: #bb131b;
+      font-family: "Georgia";
+    }
+  }
+}
+.browse_box {
+  width: 180px;
+  height: auto;
+  padding: 5px;
+  border-bottom: 1px dotted #dddddd;
+  margin-bottom: 5px;
+}
+//  right goodsDetails
+.detail_right{
+  width:990px;
+  float:left;
+  .detail_tabs {
+    width: auto;
+    height: auto;
+  }
+}
+// 1 tabtags nav
+//  2 goods nianfen introduce
+.detail_gg {
+  padding: 5px;
+  label {
+    width: 222px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    padding-left: 20px;
+    background: url(../images/detail_gg.png) no-repeat;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+//  3 goods details big pic  --model
+.detail_tabs_t {
+  width: auto;
+  height: 35px;
+  background: #f3f3f3;
+  border-bottom: 2px solid #a0603d;
+  li {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    display: block;
+    background: #ffffff;
+    cursor: pointer;
+    .cur {
+      color: #ffffff;
+      height: 35px;
+      line-height: 35px;
+      background: url(../images/detail_tabs_t.jpg) no-repeat;
+    }
+  }
+
+}
+
+
+
+.detail_super {
+  padding: 5px;
+}
+.detail_payment {
+  padding: 10px;
+  .detail_payment_t {
+    height: 30px;
+    line-height: 30px;
+    background: #f3f3f3;
+    padding: 2px 10px;
+  }
+  .detail_payment_c {
+    padding: 10px;
+  }
+}
+
+
+
+
+
