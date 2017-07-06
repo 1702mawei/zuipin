@@ -6,6 +6,8 @@
         $('#popnav .nav_details').show();
         $('#popnav .sn_nav').show();
     });
+	
+	
     $('#popnav').mouseleave(function () {
         $('.nav_details').hide();
         $('.sn_nav').hide();
